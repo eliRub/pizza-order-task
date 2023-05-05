@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pizza Store</title>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <h1>!Best Pizza!</h1>
+        <img id="pizza-img" src="https://www.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg.transform/845x440/image.jpg" alt="">
+
+        <div>
+
+            <h3>Please select between these 3 types of dough:</h3>
+
+            <input id="normal" type="radio" name="dough" value="normal">
+            <label for="normal">Normal</label>
+            <input id="full" type="radio" name="dough" value="full">
+            <label for="full">Full</label>
+            <input id="thin" type="radio" name="dough" value="thin">
+            <label for="thin">Thin</label>
+
+            <h3>Please select what size of pizza do you want: </h3>
+
+            <input id="personally" type="radio" name="size" value="personally">
+            <label for="personally">Personally</label>
+            <input id="large" type="radio" name="size" value="large">
+            <label for="large">Large</label>
+            <input id="extra large" type="radio" name="size" value="extra large">
+            <label for="extra large">Extra Large</label>
+
+            <h3>Please select any toppings that you want from here:</h3>
+            <form action="">
+                <input id="pepperoni" class="toppings" type="checkbox" name="toppings" value="pepperoni"> Pepperoni
+                <input id="mushrooms" class="toppings" type="checkbox" name="toppings" value="mushrooms"> Mushrooms
+                <input id="sausage" class="toppings" type="checkbox" name="toppings" value="sausage"> Sausage
+                <input id="bell pepper" class="toppings" type="checkbox" name="toppings" value="bell pepper"> Bell Pepper
+                <input id="onions" class="toppings" type="checkbox" name="toppings" value="onions"> Onions
+                <input id="olives" class="toppings" type="checkbox" name="toppings" value="olives"> Olives
+            </form>
+
+        </div>
+
+        <br>
+        <button onclick="submitOrder()">Order</button>
+
+        <script src="./script.js"></script>
+
+    </body>
+
+</html>

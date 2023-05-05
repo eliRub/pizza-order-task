@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-bottom: 40px;
+}
+
+*{
+    text-align: center;
+}
+
+img{
+    width: 600px;
+    height: 300px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
